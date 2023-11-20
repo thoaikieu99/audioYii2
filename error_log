@@ -1,0 +1,3 @@
+[04-Nov-2023 07:15:20 UTC] PHP Warning:  Undefined variable $str in /home/kianaiio/public_html/testt.php on line 2
+[04-Nov-2023 07:15:54 UTC] PHP Warning:  Undefined variable $str in /home/kianaiio/public_html/testt.php on line 2
+[04-Nov-2023 08:45:55 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 90193920 bytes) in /home/kianaiio/public_html/frontend/controllers/AudiooController.php on line 142

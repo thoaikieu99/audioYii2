@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a1a990a1-b827-4918-a0d3-bcd10f64215d" name="103.169.35.190" url="http://ftp.kianai99.io.vn">
+        <fileTransfer host="ftp.kianai99.io.vn" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b77c71f7-22e5-4f5d-86b7-0283b2c9d5fd" name="abc" url="http://103.169.35.190">
+        <fileTransfer accessType="FTPS" host="103.169.35.190" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

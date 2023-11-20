@@ -1,0 +1,15 @@
+
+# HTID:22340728: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:22340728:
+# RewriteEngine On
+
+# RewriteCond %{HTTP_HOST} ^doctruyen01.000webhostapp\.com$ [OR]
+# RewriteCond %{HTTP_HOST} ^www\.doctruyen01.000webhostapp\.com$
+# RewriteCond %{REQUEST_URI} !^/audio/frontend/web/
+# RewriteRule (.*) /audio/frontend/web/$1
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
